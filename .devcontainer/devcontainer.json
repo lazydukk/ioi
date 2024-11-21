@@ -9,12 +9,8 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [6969],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": [
-	//	"curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash && sudo apt-get install libcs50"
-	// ],
 	
 	// Configure tool-specific properties.
 	// "customizations": {},
@@ -35,10 +31,7 @@
 		"PKief.material-icon-theme",
 		"twxs.cmake",
 		"VisualStudioExptTeam.intellicode-api-usage-examples",
-		"VisualStudioExptTeam.vscodeintellicode",
-		"CS50.cs50",
-		"CS50.ddb50",
-		"CS50.lab50"
+		"VisualStudioExptTeam.vscodeintellicode"
 	]
     // .. 	
 }
