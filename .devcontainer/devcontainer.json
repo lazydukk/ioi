@@ -1,5 +1,9 @@
 {
 	"name": "ioi",
+	"args": {
+   		"VARIANT": "debian-11",
+   		"REINSTALL_CMAKE_VERSION_FROM_SOURCE": "3.21.5"
+	},
 	"settings" : {},
 	"extensions" : [
 		"eamodio.gitlens",
