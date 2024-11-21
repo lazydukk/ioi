@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+
+// Configured by lazydukk https://github.com/lazydukk/ for lazydukk/cs50 codespace
+{
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": [
+		"curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash && sudo apt-get install libcs50"
+	],
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+    // ... 
+		"extensions" : [
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"GitHub.codespaces",
+		"GitHub.github-vscode-theme",
+		"GitHub.vscode-pull-request-github",
+		"ms-vscode.cmake-tools",
+		"ms-vscode.cpptools",
+		"ms-vscode.cpptools-extension-pack",
+		"ms-vscode.cpptools-themes",
+		"PKief.material-icon-theme",
+		"twxs.cmake",
+		"VisualStudioExptTeam.intellicode-api-usage-examples",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"CS50.cs50",
+		"CS50.ddb50",
+		"CS50.lab50"
+	]
+    // .. 	
+}
