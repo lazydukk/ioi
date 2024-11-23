@@ -5,3 +5,6 @@
 - Char ("%c"): Character type
 - Float ("%f"): 32 bit real value
 - Double ("%lf"): 64 bit real value
+
+
+scanf / printf is faster than cout and cin
