@@ -1,10 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "C/C++: g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
+           /* "program": "${fileDirname}\\builds\\${fileBasenameNoExtension}.exe", */
             "program": "${fileDirname}\\builds\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
