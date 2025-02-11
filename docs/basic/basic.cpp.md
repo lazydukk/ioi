@@ -124,6 +124,7 @@ students /= 2;
 // Modulus operator 
 int remainder = students % 3;
 ```
+
 - Order how the arithmetic operations are done:
 	1. Parenthesis
 	2. Multiplication & Division 
