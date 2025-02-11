@@ -6,7 +6,7 @@
 
 ---
 
-### Setting up VS Code
+### Setting up Windows / VS Code for development
 
 - Install mysys2
 - Run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`
