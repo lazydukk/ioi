@@ -8,6 +8,9 @@
 
 ### Setting up VS Code
 
-- install mysys2
-- run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`
-- check whether the libraries are added `gcc --version && g++ --version && gdb --version`
+- Install mysys2
+- Run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`
+- Check whether the libraries are added `gcc --version && g++ --version && gdb --version`
+
+### To Compile
+- Run `g++ -o ./path/to/compiled/executable ./path/to/source`
