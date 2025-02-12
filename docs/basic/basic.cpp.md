@@ -129,3 +129,42 @@ int remainder = students % 3;
 	1. Parenthesis
 	2. Multiplication & Division 
 	3. Addition & Subtraction
+
+### 5. Type Conversions
+- Type conversion is used to convert one data type to another data type.
+    - Implicit => Automatic
+    - Explicit => Precede value with new data type (int)
+```cpp
+double x = (int) 3.14; // Explicit
+char y = 100; // Implicit (reads in as a ASCII value and outputs the corresponding letter)
+std::cout << (char) 100; // Same as above 
+```
+```cpp
+int correct = 8;
+int questions = 10;
+double score = correct/(double)questions * 100;
+std::cout << score << "%" << '\n';
+```
+>[!summary]
+>When 8 is divided by 10; It equals to 0.8;
+>But as questions is an integer, it truncates the 8 from 0.8 and only gives 0; Thus resulting `0%`. By using type conversion to convert question var's data type from int to double in the arrithmetic operation it retains the decimal point. Thus gives the correct answer `80%`
+
+### 6. User Input
+- `<<` => Insertion operator
+- `>>` => (Extraction operator
+- `cout` => outputs a result
+- `cin` => takes and input   
+```cpp
+std::cout << "What's your name?: ";
+std::cin >> name;
+```
+- To read a string that could contain strings, can use `getline` function.
+```cpp
+std::cout << "What's your name?: ";
+std::getline(std::cin, name);
+std::cout << "What is your age?: ";
+std::cin >> age;
+std::cout << "What is your school?: ";
+std::cin.ignore(); // Is used to discard the leftover newline character in the input buffer after reading an integer with std::cin >> age;, ensuring that the subsequent std::getline call works correctly.
+std::getline(std::cin, school);
+```
