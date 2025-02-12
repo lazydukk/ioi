@@ -32,5 +32,16 @@ int main()
 
     int mod_op = 2 % 2;
     std::cout << "Remainder = " << mod_op << '\n';
+
+    // Type conversions
+    double impi = (int)3.14;
+    char asc = 100; // Implicit type conversion
+    std::cout << impi << '\n'
+              << asc << '\n';
+
+    int correct = 8;
+    int questions = 10;
+    double score = correct / (double)questions * 100;
+    std::cout << score << "%" << '\n';
     return 0;
 }
