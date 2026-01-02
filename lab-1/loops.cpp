@@ -16,6 +16,7 @@ int main() {
     }
 
     // do-while loop
+    // body is atleast executed even while the condition is false
     int b = 0;
     do {
         cout << "do-while: " << b << "\n";
