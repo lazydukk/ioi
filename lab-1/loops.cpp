@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     //for loop
-    // counts untill i = 4
+    // counts until i = 4
     for (int i = 0; i < 5; i++) {
         cout << "for: " << i << "\n";
     }
@@ -22,6 +22,6 @@ int main() {
         cout << "do-while: " << b << "\n";
         b++;
     }while (b < 5);
-    
+
     return 0;
 }

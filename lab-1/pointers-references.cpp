@@ -7,7 +7,7 @@ int add(int a, int b) {
 
 int main() {
    int num = 10;
-   int *ptr = &num; // pointer ptr now points to the memmory address of the num
+   int *ptr = &num; // pointer ptr now points to the memory address of the num
    int value = *ptr;
    cout << value << endl;
 
