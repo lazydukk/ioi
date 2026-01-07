@@ -1,5 +1,6 @@
 /other
 /.zed
+/.vs
 /roadmap
 /official.md
 /resources.md
@@ -8,3 +9,8 @@
 /lab-1/builds
 /lab-0/builds
 /psets/codeforces/builds
+/learncpp/HelloWorld/.vs
+/learncpp/HelloWorld/HelloWorld.slnx
+/learncpp/HelloWorld/HelloWorld.vcxproj
+/learncpp/HelloWorld/HelloWorld.vcxproj.filters
+/learncpp/HelloWorld/HelloWorld.vcxproj.user
