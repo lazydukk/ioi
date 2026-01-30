@@ -8,5 +8,11 @@ int main() {
   int y{};
   cin >> y;
   cout << "you entered: " << y << '\n';
+
+  cout << "Enter 2 characters seperated by a space: ";
+  char a{};
+  char b{};
+  cin >> a >> b;
+  cout << "You entered: " << a << " and " << b << '\n';
   return 0;
 }
