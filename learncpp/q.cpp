@@ -6,4 +6,5 @@ int main() {
   string name{};
   cin >> name;
   cout << "Hello, " << name << "!\n";
+  cout << "Thank You!\n";
 }

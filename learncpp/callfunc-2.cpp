@@ -6,8 +6,7 @@ void doB()
     cout << "In doB() \n";
 }
 
-void doA()
-{
+void doA() {
   cout << "starting doA() \n";
   doB();
   cout << "Ending doA() \n";
