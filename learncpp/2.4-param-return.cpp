@@ -13,7 +13,7 @@ int main() {
 
   int z{5};
   cout << add(z, z) << '\n'; // evaluates to ( 5 + 5) = 10;
-
+  cout << multiply(z, z) << '\n';
   cout << add(1, multiply(2, 3)) << '\n';      // evals to 1 + 6
   cout << add(1, add(2, 3)) << '\n';           // evals to 1 + 5
   cout << multiply(add(z, z), multiply(3, 2)); // evals to 60
