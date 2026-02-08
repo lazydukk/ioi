@@ -11,6 +11,6 @@ int main() {
   cout << "Enter a number: ";
   int x{};
   cin >> x;
-  cout << doubleNumber(y) << '\n';
+  cout << doubleNumber(x) << '\n';
   return 0;
 }
