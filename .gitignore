@@ -6,20 +6,12 @@
 /resources.md
 /syllabi.md
 /todo.md
-/lab-1/builds
-/lab-1/debug
-/lab-0/builds
-/psets/codeforces/builds
-/learncpp/HelloWorld/.vs
-/learncpp/HelloWorld/HelloWorld.slnx
-/learncpp/HelloWorld/HelloWorld.vcxproj
-/learncpp/HelloWorld/HelloWorld.vcxproj.filters
-/learncpp/HelloWorld/HelloWorld.vcxproj.user
-/learncpp/HelloWorld/x64
-/learncpp/HelloWorld/HelloWorld/x64/Debug
-/learncpp/HelloWorld/builds
-/learncpp/builds/
-/learncpp/debug
-/learncpp/builds_compet/
-CPH/builds
-CPH/builds_compet
+
+# Ignore `bin` dir
+# or
+builds/
+builds_compet/
+debug/
+
+# Unignore all `.exe` in `bin` dir
+*.exe
