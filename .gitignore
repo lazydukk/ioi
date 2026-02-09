@@ -7,11 +7,10 @@
 /syllabi.md
 /todo.md
 
-# Ignore `bin` dir
-# or
+# Ignore these dirs
 builds/
 builds_compet/
 debug/
 
-# Unignore all `.exe` in `bin` dir
+# Unignore all `.exe`
 *.exe
