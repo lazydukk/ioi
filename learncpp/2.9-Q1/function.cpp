@@ -6,3 +6,10 @@ int getInteger() {
   std::cin >> x;
   return x;
 }
+
+char getChar() {
+  std::cout << "Enter a character: ";
+  char y{};
+  std::cin >> y;
+  return y;
+}
