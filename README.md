@@ -13,7 +13,7 @@
 - Check whether the libraries are added `gcc --version && g++ --version && gdb --version`
 
 ### To Compile
-- Run `g++ -o ./path/to/compiled/executable ./path/to/source
+- Run `g++ -o ./path/to/compiled/executable ./path/to/source`
 - Use macros setup in zed
 
 ### Linting errors in Zed (Windows)
@@ -30,5 +30,5 @@
 - Then restart the editor.
 
 ### TODO
-- [] Migrate to NeoVim
-- [] Write a script to automate compiling/debugging?
+- [ ] Migrate to NeoVim
+- [ ] Write a script to automate compiling/debugging?
