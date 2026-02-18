@@ -1,1 +1,7 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
 SpacesInBracedLists: true
+SpacesInParentheses: true
+SpaceAfterControlStatementKeyword: true
+---

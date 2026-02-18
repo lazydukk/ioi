@@ -11,10 +11,9 @@ int getUserInput() {
 
 // implementation of getting the mathematical operator from the user
 char getMathOperation() {
-  std::cout << "Enter the mathematical operation (+, -, *, /: ";
+  std::cout << "Enter the mathematical operation (+, -, *, /): ";
   char input{};
   std::cin >> input;
-
   return input;
 }
 
