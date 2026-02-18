@@ -26,16 +26,16 @@ int calculateResult(int x, int y, char z) {
 
 int main() {
   // get first number from the user
-  int valueOne{getUserInput()}; // Note we've included
-                                // code here to test the return value!
+  int valueOne{ getUserInput() };  // Note we've included
+                                   // code here to test the return value!
   std::cout << valueOne << '\n';
 
   // get mathematical operation from the user
-  char operation{getMathOperation()};
+  char operation{ getMathOperation() };
   std::cout << operation << '\n';
 
   // get second number from the user
-  int valueTwo{getUserInput()};
+  int valueTwo{ getUserInput() };
   std::cout << valueTwo << '\n';
 
   // calculate the result
