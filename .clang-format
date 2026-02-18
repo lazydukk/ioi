@@ -1,5 +1,5 @@
 ---
-BasedOnStyle: Google # or LLVM, LLVM tends to be closer to "spacious"
+BasedOnStyle: LLVM # or LLVM, LLVM tends to be closer to "spacious"
 Language: Cpp
 SpacesInParentheses: true # Adds spaces inside () for non-empty and many empty cases
 SpaceInEmptyParentheses: false # ← This is crucial for forcing space in empty () like f( )
