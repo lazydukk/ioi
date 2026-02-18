@@ -9,11 +9,11 @@ int getUserInput() {
   return input;
 }
 
-
-
 int main() {
   // get first number from the user
-  // // getUserInput();
+  int value{getUserInput()}; // Note we've included
+                             // code here to test the return value!
+  std::cout << value << '\n';
 
   // get mathematical operation from the user
   // getMathOperation();
