@@ -13,6 +13,8 @@ int getUserInput() {
 
 int main() {
   plog::init( plog::debug, "Logfile.txt" ); // Step 2: initialize the logger
+  // plog::none eliminates writing of most messages, essentially
+  // turning logging off
 
   PLOGD << "main() called"; // Step 3: Output to the log as if you were writing
                             // to the console
