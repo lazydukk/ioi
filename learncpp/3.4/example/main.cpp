@@ -28,7 +28,7 @@ std::cerr << "getUserInput() called\n";
 std::cerr << "getUserInput::x = " << x << '\n';
   // clang-format on
 
-  return --x; // removed "--" before x
+  return x; // removed "--" before x
 }
 
 int main() {
