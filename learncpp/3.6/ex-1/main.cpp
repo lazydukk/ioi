@@ -5,6 +5,9 @@ void printValue( int value ) {
 }
 
 int main() {
+  std::cout << std::unitbuf; // enable automatic flushing for std::cout (for
+                             // debugging) (comment this line after debugging
+                             // the program)
   printValue( 5 );
   return 0;
 }
