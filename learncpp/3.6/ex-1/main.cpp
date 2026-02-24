@@ -1,13 +1,16 @@
 #include <iostream>
 
+#define DEBUG
+
 void printValue( int value ) {
   std::cout << value << '\n';
 }
 
 int main() {
-  std::cout << std::unitbuf; // enable automatic flushing for std::cout (for
-                             // debugging) (comment this line after debugging
-                             // the program)
+#ifdef DEBUG
+  std::cout << std::unitbuf; // enable automatic
+                             // lushing for std::cout (for debugging)
+#endif
   printValue( 5 );
   return 0;
 }
