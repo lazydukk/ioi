@@ -8,7 +8,7 @@
 
 int readNumber() {
   std::cout << "Please enter a number: ";
-  char x{};
+  int x{}; // change char to int
   std::cin >> x;
 
   return x;
