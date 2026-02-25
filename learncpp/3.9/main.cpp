@@ -14,3 +14,5 @@ int main() {
   b();
   return 0;
 }
+
+// use backtrace or bt to see the call stack in GDB
