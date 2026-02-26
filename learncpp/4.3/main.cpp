@@ -17,6 +17,9 @@ int main() {
   std::cout << std::setw( 16 ) << "double:" << sizeof( double ) << " bytes\n";
   std::cout << std::setw( 16 ) << "long double:" << sizeof( long double )
             << " bytes\n";
+  // std::cout << std::setw( 16 ) << "void: " << sizeof( void )
+  // << " bytes\n"; // result in compiler throwing an error => (invalid
+  // application of sizeof to a void type)
 
   return 0;
 }
