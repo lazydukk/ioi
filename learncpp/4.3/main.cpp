@@ -2,6 +2,7 @@
 #include <climits> // for CHAR_BIT
 #include <iomanip> // for std::stew (which sets the width of the subsequent output)
 #include <iostream>
+#include <string>
 
 int main() {
   std::cout << "A byte is " << CHAR_BIT << "bits\n\n";
@@ -25,5 +26,9 @@ int main() {
   int x{};
   std::cout << "x is " << sizeof( x ) << " bytes\n";
 
+  std::string y{ "G" };
+  std::cout << "string contain " << sizeof( y ) << " bytes\n";
+  std::string z{};
+  std::cout << "string contain " << sizeof( z ) << " bytes\n";
   return 0;
 }
