@@ -1,3 +1,4 @@
+// 4.3 - object sizes and the sizeof operator
 #include <climits> // for CHAR_BIT
 #include <iomanip> // for std::stew (which sets the width of the subsequent output)
 #include <iostream>
@@ -20,6 +21,9 @@ int main() {
   // std::cout << std::setw( 16 ) << "void: " << sizeof( void )
   // << " bytes\n"; // result in compiler throwing an error => (invalid
   // application of sizeof to a void type)
+
+  int x{};
+  std::cout << "x is " << sizeof( x ) << " bytes\n";
 
   return 0;
 }
