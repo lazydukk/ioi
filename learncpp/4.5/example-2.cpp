@@ -11,5 +11,14 @@ int main() {
   signed int s{ 3 }; // signed int is converted to
                      // unsigned as u is an unsigned int
   std::cout << u - s << '\n';
+
+  signed int w{ -1 };
+  unsigned int z{ 1 };
+
+  if ( w < z )
+    std::cout << "-1 is less than 1\n";
+  else
+    std::cout << "1 is less than -1\n";
+
   return 0;
 }
