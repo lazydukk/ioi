@@ -8,5 +8,6 @@ int main() {
   x = x + 1; // integer overflow, undefined behavior
   std::cout << x << '\n';
 
+  std::cout << 20 / 4 << '\n';
   return 0;
 }
