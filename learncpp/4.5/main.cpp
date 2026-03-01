@@ -9,8 +9,16 @@ int main() {
   x = 65536; // 65536 is out of range, so we get modulo wrap-around
   std::cout << "x is now: " << x << '\n';
 
-  x = 65537;
+  x = 65537; // 65537 is out of range, so we get modulo wrap-around
   std::cout << "x is now: " << x << '\n';
+
+  unsigned short y{ 0 }; // smallest 2-byte unsigned value possible
+  std::cout << "y was: " << y << '\n';
+
+  y = -1; // -1 is out of our range, so we get modulo wrap-around
+  std::cout << "y is now: " << x << '\n';
+  y = -2; // -1 is out of our range, so we get modulo wrap-around
+  std::cout << "y is now: " << x << '\n';
 
   return 0;
 }
