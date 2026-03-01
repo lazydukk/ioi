@@ -9,5 +9,11 @@ int main() {
   std::cout << x << '\n';
 
   std::cout << 20 / 4 << '\n';
+  std::cout << 8 / 5 << '\n'; // produces an integer result; as integers cant
+                              // hold any fractional values, any fractional
+                              // portion is simply dropped (not rounded)
+  std::cout << -8 / 5 << '\n';
+  std::cout << 13 / 5 << '\n';
+  std::cout << -13 / 5 << '\n';
   return 0;
 }
