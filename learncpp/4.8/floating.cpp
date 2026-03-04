@@ -35,5 +35,21 @@ int main() {
   std::cout << std::setprecision( 9 );
   std::cout << f << '\n';
 
+  double z{ 0.1 };
+  std::cout << z << '\n'; // use default cout precision of 6
+  std::cout << std::setprecision( 17 );
+  std::cout << z << '\n';
+
+  std::cout << std::setprecision( 17 );
+
+  double d1{ 1.0 };
+  std::cout << d1 << '\n';
+
+  double d2{ 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 +
+             0.1 }; // shoudl equal to 1.0
+  std::cout << d2 << '\n';
+
+  
+  
   return 0;
 }
