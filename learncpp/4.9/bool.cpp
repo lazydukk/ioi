@@ -30,5 +30,6 @@ int main() {
   bool c2 = 0; // copy initialization allows implicit
   // conversion from int to bool
   std::cout << c2 << '\n';
+
   return 0;
 }
