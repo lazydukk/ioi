@@ -49,7 +49,5 @@ int main() {
              0.1 }; // shoudl equal to 1.0
   std::cout << d2 << '\n';
 
-  
-  
   return 0;
 }
