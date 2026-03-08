@@ -5,7 +5,18 @@ int main() {
   int x{};
   std::cin >> x;
 
-  if ( x == 0 )
-    std::cout << "The value is zero\n";
+  /*
+    if ( x == 0 )
+      std::cout << "The value is zero\n";
+    else
+      std::cout << "The value is non-zero\n";
+ */
+
+  if ( x > 0 )
+    std::cout << "The value is positive\n";
+  else if ( x < 0 )
+    std::cout << "The value is negative\n";
+  else
+    std::cout << "The value is zero";
   return 0;
 }
