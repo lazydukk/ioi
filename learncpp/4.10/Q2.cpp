@@ -24,7 +24,10 @@ bool isPrime( int y ) {
     return true;
 
   return false; // if the user didn't enter 2,3,5,7, the digit must not be prime
-}
+
+// using logical OR operator
+/*    return x == 2 || x == 3 || x == 5 || x == 7; // if user entered 2 or 3 or
+ * 5 or 7 the digit is prime */}
 
 int main() {
   int y{ getUserInput() };
