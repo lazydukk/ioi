@@ -1,0 +1,34 @@
+// 4.3 - object sizes and the sizeof operator
+#include <climits> // for CHAR_BIT
+#include <iomanip> // for std::stew (which sets the width of the subsequent output)
+#include <iostream>
+#include <string>
+
+int main() {
+  std::cout << "A byte is " << CHAR_BIT << "bits\n\n";
+  std::cout << std::left; // left justify output
+
+  std::cout << std::setw( 16 ) << "bool:" << sizeof( bool ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "char:" << sizeof( char ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "short:" << sizeof( short ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "int:" << sizeof( int ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "long:" << sizeof( long ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "long long:" << sizeof( long long )
+            << " bytes\n";
+  std::cout << std::setw( 16 ) << "float:" << sizeof( float ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "double:" << sizeof( double ) << " bytes\n";
+  std::cout << std::setw( 16 ) << "long double:" << sizeof( long double )
+            << " bytes\n";
+  // std::cout << std::setw( 16 ) << "void: " << sizeof( void )
+  // << " bytes\n"; // result in compiler throwing an error => (invalid
+  // application of sizeof to a void type)
+
+  int x{};
+  std::cout << "x is " << sizeof( x ) << " bytes\n";
+
+  std::string y{ "G" };
+  std::cout << "string contain " << sizeof( y ) << " bytes\n";
+  std::string z{};
+  std::cout << "string contain " << sizeof( z ) << " bytes\n";
+  return 0;
+}
