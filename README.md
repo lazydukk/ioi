@@ -16,7 +16,7 @@
 - Run `g++ -o ./path/to/compiled/executable ./path/to/source`
 - Use macros setup in zed
 
-### Linting errors in Zed (Windows)
+### Linting errors in Zed (Windows) // edgecase?
 - Run `pacman -S mingw-w64-ucrt-x86_64-clang-tools-extra` to install clang using mysys2
 - Then edit the `settings.json` in Zed edito and add the following ->
 `"lsp": {
