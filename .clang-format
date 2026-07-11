@@ -8,4 +8,5 @@ SpacesInContainerLiterals: true # spaces inside {1, 2} → { 1, 2 }
 Cpp11BracedListStyle: true # ← Important! Disables "tight" braced-init style
 # If you also want space in empty {} blocks (e.g. void f() { } → void f() { })
 AllowShortFunctionsOnASingleLine: None # Helps prevent collapsing { } too aggressively
+BreakBeforeBraces: Linux
 ---
