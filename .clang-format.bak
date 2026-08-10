@@ -1,0 +1,25 @@
+---
+BasedOnStyle: LLVM # or LLVM, LLVM tends to be closer to "spacious"
+Language: Cpp
+SpacesInParentheses: true # Adds spaces inside () for non-empty and many empty cases
+SpaceInEmptyParentheses: false # ← This is crucial for forcing space in empty () like f( )
+# For braced-init-lists and empty blocks {}:
+SpacesInSquareBrackets: true
+SpacesInBlockComments: Always
+SpacesInAngles: Always
+# SpaceInEmptyBraces: Block
+SpaceBeforeSquareBrackets: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: true
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeEnumUnderlyingTypeColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeJsonColon: true
+SpacesInContainerLiterals: true # spaces inside {1, 2} → { 1, 2 }
+Cpp11BracedListStyle: true # ← Important! Disables "tight" braced-init style
+# If you also want space in empty {} blocks (e.g. void f() { } → void f() { })
+AllowShortFunctionsOnASingleLine: None # Helps prevent collapsing { } too aggressively
+BreakBeforeBraces: Linux
+---
