@@ -13,5 +13,8 @@ builds_compet/
 debug/
 # include/
 
-# Unignore all `.exe`
+# Unignore all `.exe` and build files
+*
+!*.*
+!*/
 *.exe
